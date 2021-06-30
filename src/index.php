@@ -17,8 +17,6 @@ $fw->route("GET /", function(\Base $fw) {
     echo "Boilerplate project deployed. Make your changes!";
 });
 
-//Abuty::instance()->run();
-
-$fw->run();
+Abuty::instance()->run();
 
 ?>

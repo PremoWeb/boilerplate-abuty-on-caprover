@@ -1,7 +1,7 @@
 <?php
 
 $abuty = Abuty::instance();
-$nav_tree = $bigfoot->sitemap($abuty->nav);
+$nav_tree = $abuty->sitemap($abuty->nav);
 
 $fw = Base::instance();
 
